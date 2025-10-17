@@ -11,3 +11,1601 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY ch.qos.logback.classic 1 0 2025-09-25 19:40:55.874
 !MESSAGE Logback config file: /Users/jerald/CST201/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-13 10:38:42.426 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jerald/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/jerald/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 10:38:46.177
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 10:38:53.960
+!MESSAGE Logback config file: /Users/jerald/CST201/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-10-13 10:45:38.447 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jerald/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/jerald/.eclipse_keyring -data file:/Users/jerald/CST201/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 10:45:44.271
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-13 10:45:48.615
+!MESSAGE Logback config file: /Users/jerald/CST201/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 11:15:02.366
+!MESSAGE No output was in the standard output when
+trying to create the interpreter info for: /usr/bin/indent
+The error output contains:>>indent: Command line: unknown parameter "-u"
+<<
+!STACK 0
+java.lang.RuntimeException: No output was in the standard output when
+trying to create the interpreter info for: /usr/bin/indent
+The error output contains:>>indent: Command line: unknown parameter "-u"
+<<
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:369)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ui.pythonpathconf.ObtainInterpreterInfoOperation.run(ObtainInterpreterInfoOperation.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-10-13 11:15:04.370
+!MESSAGE - Ok, file is non-null. Getting info on:/usr/bin/indent
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing: /usr/bin/indent -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Making pythonpath environment.../usr/bin/indent -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Making exec.../usr/bin/indent -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+Exception detected: No output was in the standard output when
+trying to create the interpreter info for: /usr/bin/indent
+The error output contains:>>indent: Command line: unknown parameter "-u"
+<<
+- Some error happened while getting info on the interpreter:
+java.lang.RuntimeException: No output was in the standard output when
+trying to create the interpreter info for: /usr/bin/indent
+The error output contains:>>indent: Command line: unknown parameter "-u"
+<<
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInfoFromOutput(AbstractInterpreterManager.java:369)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.doCreateInterpreterInfo(PythonInterpreterManager.java:70)
+	at org.python.pydev.ast.interpreter_managers.PythonInterpreterManager.internalCreateInterpreterInfo(PythonInterpreterManager.java:43)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.createInterpreterInfo(AbstractInterpreterManager.java:329)
+	at org.python.pydev.ui.pythonpathconf.ObtainInterpreterInfoOperation.run(ObtainInterpreterInfoOperation.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+- Ok, file is non-null. Getting info on:/usr/local/bin/python3
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing: /usr/local/bin/python3 -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Making pythonpath environment.../usr/local/bin/python3 -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Making exec.../usr/local/bin/python3 -u /Users/jerald/.p2/pool/plugins/org.python.pydev.core_13.1.0.202509210817/pysrc/interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.14</version>
+<executable>/usr/local/bin/python3</executable>
+<vmArgs>-Xfrozen_modules=off</vmArgs>
+<lib>/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14</lib>
+<lib>/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/lib-dynload</lib>
+<lib>/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_abc</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_contextvars</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_suggestions</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_sysconfig</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tokenize</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_types</forced_lib>
+<forced_lib>_typing</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>posix</forced_lib>
+<forced_lib>pwd</forced_lib>
+<forced_lib>py</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>random</forced_lib>
+<forced_lib>re</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>314</value></string_substitution_var>
+</xml>
+
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-10-13 11:15:29.738
+!MESSAGE Restoring info for: /usr/local/bin/python3
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-10-13 11:15:30.111
+!MESSAGE Finished restoring information for: /usr/local/bin/python3 at: /Users/jerald/CST201/.metadata/.plugins/org.python.pydev/v1_75p21v6xfyuue3helve1dxf30
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 11:15:30.275
+!MESSAGE Info: Rebuilding internal caches: /Users/jerald/CST201/.metadata/.plugins/com.python.pydev.analysis/python_v1_75p21v6xfyuue3helve1dxf30/python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 14:36:02.451
+!MESSAGE Info: Rebuilding internal caches: /Users/jerald/CST201/.metadata/.plugins/org.eclipse.core.resources/.projects/BattleShip/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 14:36:02.463
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.getAdditionalInfoForProject(AdditionalProjectInterpreterInfo.java:250)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:339)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:23:09.423
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:24:37.147
+!MESSAGE Info: Rebuilding internal caches: /Users/jerald/CST201/.metadata/.plugins/org.eclipse.core.resources/.projects/CLC-Battleship/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:24:37.152
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.getAdditionalInfoForProject(AdditionalProjectInterpreterInfo.java:250)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:339)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:27:10.396
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:27:42.018
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:28:03.329
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:28:24.014
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:28:44.939
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRenameOnLocalScope(PyRenameImportProcess.java:82)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRename(PyRenameImportProcess.java:73)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:29:05.378
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:29:26.262
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:30:09.407
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:30:33.035
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:30:53.382
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:31:18.861
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:31:43.257
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:32:16.425
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:32:37.051
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:32:57.158
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:33:32.155
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:33:52.236
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:34:13.491
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:34:48.876
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:35:13.205
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:35:33.723
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:41:36.321
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:41:56.442
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:42:20.268
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:42:46.252
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:43:06.418
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:43:27.656
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:47:06.630
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:48:35.443
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:49:20.031
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:49:55.072
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:50:19.524
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:50:56.586
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:51:53.858
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:52:39.947
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:53:02.867
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:53:24.327
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:53:46.611
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:54:07.515
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:54:28.080
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:55:10.758
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 15:55:33.439
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 16:09:29.777
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRenameOnLocalScope(PyRenameImportProcess.java:82)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRename(PyRenameImportProcess.java:73)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 16:10:14.007
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRenameOnLocalScope(PyRenameImportProcess.java:82)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRename(PyRenameImportProcess.java:73)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 16:10:38.156
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameAnyLocalProcess.getOccurrences(PyRenameAnyLocalProcess.java:52)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameAnyLocalProcess.findReferencesToRenameOnLocalScope(PyRenameAnyLocalProcess.java:42)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 16:10:59.437
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:436)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3439)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:976)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:958)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1081)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-13 16:13:54.887
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRenameOnLocalScope(PyRenameImportProcess.java:82)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRename(PyRenameImportProcess.java:73)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-17 10:26:13.330
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-17 10:28:28.089
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRenameOnLocalScope(PyRenameImportProcess.java:82)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameImportProcess.findReferencesToRename(PyRenameImportProcess.java:73)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

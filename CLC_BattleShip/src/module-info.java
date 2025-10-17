@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Introduction {
+module CLC_BattleShip {
 }
